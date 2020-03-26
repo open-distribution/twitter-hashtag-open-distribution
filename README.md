@@ -37,7 +37,7 @@ Be aware of the [Geo Guidelines](https://developer.twitter.com/en/developer-term
   - [node-red-contrib-deduplicate](https://flows.nodered.org/node/node-red-contrib-deduplicate): Removes duplicates Tweets that might arise if Tweets reference multiple hashtags that are included in your API filter criteria (see below). 
 4. Import the file `flows.json` from this repository using the Node-Red editor. See [Importing and Exporting Flows](https://nodered.org/docs/user-guide/editor/workspace/import-export).
 
-![twitter-hashtag-open-distribution-output](images/twitter-hashtag-open-distribution-output.png)
+![twitter-hashtag-open-distribution](images/twitter-hashtag-open-distribution.png)
 
 5. Setup the Twitter Stream node:
   - Enter the Twitter app credentials created in step 1 above.
