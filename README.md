@@ -25,6 +25,8 @@ Further information on the parameters for filtering real-time tweets can be foun
 
 Be aware of the [Geo Guidelines](https://developer.twitter.com/en/developer-terms/geo-guidelines) provided by Twitter for developers.
 
+![twitter-hashtag-open-distribution-output](images/twitter-hashtag-open-distribution-output.png)
+
 ## Setting up the flow in Node-Red
 
 1. In order to use the Twitter Stream Node the user will need to sign up for a Twitter developer account and set up a Twitter app. See [Twitter developer apps: Overview](https://developer.twitter.com/en/docs/basics/apps/overview).
@@ -34,6 +36,9 @@ Be aware of the [Geo Guidelines](https://developer.twitter.com/en/developer-term
   - [node-red-contrib-web-worldmap](https://flows.nodered.org/node/node-red-contrib-web-worldmap): Provides an interactive map for display for geolocated Tweets with associated pictures and videos.
   - [node-red-contrib-deduplicate](https://flows.nodered.org/node/node-red-contrib-deduplicate): Removes duplicates Tweets that might arise if Tweets reference multiple hashtags that are included in your API filter criteria (see below). 
 4. Import the file `flows.json` from this repository using the Node-Red editor. See [Importing and Exporting Flows](https://nodered.org/docs/user-guide/editor/workspace/import-export).
+
+![twitter-hashtag-open-distribution-output](images/twitter-hashtag-open-distribution-output.png)
+
 5. Setup the Twitter Stream node:
   - Enter the Twitter app credentials created in step 1 above.
   - Select user accounts, hashtags or search terms to monitor.
