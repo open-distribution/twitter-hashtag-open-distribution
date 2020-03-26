@@ -1,7 +1,7 @@
 # twitter-hashtag-open-distribution
 Node-Red flow enabling distribution requests via geolocated Tweet with relevant hashtag.
 
-## Crowdsourcing geolocated Tweets
+## Crowdsourcing information with hashtags and geolocated Tweets
 
 1. In order to use Twitter to crowdsource information it is important for participants to [use specific hashtags](https://help.twitter.com/en/using-twitter/how-to-use-hashtags) (e.g. #opendistribution) that are easy to remember and can be used to aggregate and monitor submissions.
 2. Participants can send geolocated Tweets from GPS enabled mobile phones. In order to do this they must...
